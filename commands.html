@@ -6,10 +6,43 @@
     <title>Document</title>
 </head>
 <body>
+    <div>
+        <h1>Basic commands</h1>
     <ul>
         <li>git init: to initialize the git</li>
-        <li>git status: to check the status of the files</li>
-        <li>gti commit: to commit the message</li>
+        <li>git status: to check the status of the files whether they are tracked or untracked</li>
+        <li>git commit: to commit the message after every step </li>
+        <li>git add filename: to add a particular file into git</li>
+        <li>git add . : to add all the files into the git</li>
+        <li>git log: to see the changes made in the whole process with the help of messages we provided though git commit</li>
+        <li>git reset --hard codecopiedfromlog: this command is used to reset the changes </li>
+        <li>git reset --soft codecopiedfromlog: this is also used to rest the changes with the help of code given in the log command</li>
+
     </ul>
+</div>
+<div>
+    <h1>Commands to push into git hub and to pull into individual desktops</h1>
+    <h4>To push into git</h4>
+    <ul>
+    <li>git remote add origin httpslink of git: which gives the direction to the git</li>
+    <li>git branch -M main: to simplify the complexity the process is divided into branches in which main is an integrated branch</li>
+    <li>git push -u origin main:by using this command we can push the branch with origin into the github</li>
+    <li>git push: if any changes are made there is no need to follow whole procedure again insyead simply use this command to update the changes</li>
+    
+    <h4>To pull the files and canges into our desktop</h4>
+    <li>git clone linkofthefilefromgithub: create a folder and open command prompt in your desktop and enter the command as mentioned after which the files will be placed into that particular folder you have selected</li>
+    <li>git pull: after cloning the files if admin made any changes in those files there is no need to repeat the whole process intead we use this simple command through which the changes are automatically updated</li>
+    </ul>
+</div>
+<div>
+    <h1>Branching commands in git</h1>
+    <ul>
+        <li>git branch: this command is used to check the existing branches</li>
+        <li>git branch test: here test is not a part of command, here we created a branch called test using this command</li>
+        <li>git checkout test: after creating branch through above command there are two branches available which are main and test and by using this command we can access the test branch</li>
+        <li>git merge test: if test branch is working perfectly then switch to main branch using checkout command and use merge command to merge both the main and test branch</li>
+    </ul>
+
+</div>
 </body>
 </html>
